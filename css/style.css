@@ -1,0 +1,20 @@
+body {
+background: #ffffb5;
+}
+
+#supreme_title {
+background-image: url('../img/looping_title.gif');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+#woody_img {
+width: 70px;
+height: 70px;
+}
+
+#looping_gif {
+width: 70px;
+height: 70px;
+}
