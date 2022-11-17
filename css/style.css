@@ -3,7 +3,7 @@ background: #ffffb5;
 }
 
 #supreme_title {
-background-image: url('../img/looping_title.gif');
+background-image: url('../rsc/img/looping_title.gif');
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
