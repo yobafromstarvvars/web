@@ -25,33 +25,39 @@
             <th>Description</th>
             <th>Source</th>
         </tr>
+        <!-- .HTML AND .HTM -->
         <tr>
             <td>.html / .htm</td>
             <td>You can use either .htm or .html as file extension. There is no difference; it is up to you.</td>
             <td><a href="https://www.w3schools.com/html/html_editors.asp">w3schools</a></td>
         </tr>
+        <!-- EMPTY ELEMENTS -->
         <tr>
             <td>Empty elements</td>
             <td>Some HTML elements have no content (like the &lt;br&gt; element). These elements are called empty elements. Empty elements do not have an end tag!</td>
             <td><a href="https://www.w3schools.com/html/html_elements.asp">w3schools</a></td>
         </tr>
+        <!-- RELATIVE URLS -->
         <tr>
             <td>When to use relative URLs</td>
             <td>It is almost always best to use relative URLs. They will not break if you change domain.</td>
             <td><a href="https://www.w3schools.com/html/html_attributes.asp">w3schools</a></td>
         </tr>
+        <!-- IMAGES -->
         <tr>
             <td>&lt;img&gt; tag</td>
             <td>
                 The &lt;img&gt; tag should contain
                 <ul>
-                    <li>width and height attributes</li>
-                    <li>alt attribute (alternate text for an image)</li>
+                    <li>width and height attributes (not required, but img can flicker while loading)</li>
+                    <li>alt attribute (alternate text for an image, read with screen reader)</li>
                     <li>src attribute</li>
                 </ul>
+                <p>HTML has width and height, but use CSS, so that the last cannot change HTML size.</p>
             </td>
             <td><a href="https://www.w3schools.com/html/html_attributes.asp">w3schools</a></td>
         </tr>
+        <!-- HEADINGS -->
         <tr>
             <td>Headings Are Important</td>
             <td>
@@ -59,6 +65,7 @@
             </td>
             <td><a href="https://www.w3schools.com/html/html_headings.asp">w3schools</a></td>
         </tr>
+        <!-- CSS -->
         <tr>
             <td>CSS properties - values (styles)</td>
             <td>
@@ -72,6 +79,7 @@
             </td>
             <td><a href="https://www.w3schools.com/html/html_styles.asp">w3schools</a></td>
         </tr>
+        <!-- HTML FORMATTING ELEMENTS -->
         <tr>
             <td>html formatting elements (tags)</td>
             <td>
@@ -123,6 +131,82 @@
             </td>
             <td><a href="https://www.w3schools.com/html/html_quotation_elements.asp">w3schools</a></td>
         </tr>
+        <!-- COLORS -->
+        <tr>
+            <td>Colors</td>
+            <td>
+                HTML supports 140 standard color names.<br>
+                Color can be set to:
+                <ul>
+                    <li>background</li>
+                    <li>border</li>
+                    <li>text</li>
+                </ul>
+                Besides the predefined color names, colors can be specified using:
+                <ul>
+                    <li>RGB</li>
+                    <li>HSL - hue, saturation, lightness</li>
+                    <li>HEX</li>
+                    <li>RGBA - "A" is alpha (transparency)</li>
+                    <li>HSLA</li>
+                </ul>
+            </td>
+            <td><a href="https://www.w3schools.com/html/html_colors.asp">w3schools</a></td>
+        </tr>
+        <!-- LINKS -->
+        <tr>
+            <td>Links</td>
+            <td>
+                By default, the linked page will be displayed in the 
+                current browser window. To change this, you must specify another 
+                target for the link.<br>
+                The target attribute specifies where to open the linked document.
+                <table>
+                    <tr>
+                        <td>(same window or tab)</td>
+                        <td>&lt;a href="#" target="_self"&gt;Link text&lt;/a&gt; 
+                        <td><a href="#" target="_self"> - Try</a></td>
+                    </tr>
+                    <tr>
+                        <td>(in the parent frame)</td>
+                        <td>&lt;a href="#" target="_parent"&gt;Link text&lt;/a&gt; 
+                        <td><a href="#" target="_parent"> - Try</a></td>
+                    </tr><tr>
+                        <td>(in the full body of the window)</td>
+                        <td>&lt;a href="#" target="_top"&gt;Link text&lt;/a&gt; 
+                        <td><a href="#" target="_top"> - Try</a></td>
+                    </tr><tr>
+                        <td>(new window or tab)</td>
+                        <td>&lt;a href="#" target="_blank"&gt;Link text&lt;/a&gt; 
+                        <td><a href="#" target="_blank"> - Try</a></td>
+                    </tr>
+                </table>
+                <p>How to make an a tag a button:</p>
+                <pre>
+                    a:link, a:visited {
+                    background-color: #f44336;
+                    color: white;
+                    padding: 15px 25px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                  }
+                  
+                  a:hover, a:active {
+                    background-color: red;
+                  }
+                </pre>
+                <p>CSS actions:</p>
+                <ul>
+                    <li>:link</li>
+                    <li>:visited</li>
+                    <li>:hover</li>
+                    <li>:active</li>
+                </ul>
+            </td>
+            <td><a href="https://www.w3schools.com/html/html_links.asp">w3schools</a></td>
+        </tr>
+        <!-- ASDF -->
         <tr>
             <td>Colors</td>
             <td>
