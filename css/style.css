@@ -3,10 +3,19 @@ background: #ffffb5;
 }
 
 #supreme_title {
-background-image: url('../rsc/img/looping_title.gif');
+background-image: url('../rsc/img/looping_title_2.gif');
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
+}
+
+#supreme_title:hover {
+background-image: url('../rsc/img/looping_title.gif');
+}
+
+#supreme_title_link {
+text-decoration: none;
+color: #000000;
 }
 
 #woody_img {
